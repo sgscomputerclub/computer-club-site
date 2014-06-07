@@ -159,6 +159,12 @@ hr {
 	margin-bottom:16px;
 }
 
+#tutorial-content hr {
+	border-color: inherit;
+	border-width: inherit;
+	margin-bottom: -24px;
+}
+
 .box {
     width: 246px;
     height: 246px;
