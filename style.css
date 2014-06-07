@@ -160,9 +160,10 @@ hr {
 }
 
 #tutorial-content hr {
-	border-color: inherit;
-	border-width: inherit;
-	margin-bottom: -24px;
+	border-color: #2ecc71;;
+	border-width: 2px;
+	margin-bottom: -16px;
+	margin-top: -16px;
 }
 
 .box {
