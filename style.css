@@ -312,9 +312,18 @@ hr {
     display: inline-block;
 }
 
-.box-3 {
-    width: 246px;
+#container-rightsidebottom {
+	width:246px;
+	padding:0px;
     margin: 4px 2px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.box-3
+.box-4 {
+    width: 246px;
+    margin: 0px;
     vertical-align: top;
     text-align: center;
     display: inline-block;
@@ -400,6 +409,48 @@ hr {
 }
 
 #links-content a {
+    font-size: 12px;
+    line-height: normal;
+}
+
+#github-heading {
+    background-color: #7f8c8d;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #7f8c8d;
+    font-family:"Roboto Thin";
+    font-size:60px;
+    color: white;
+    line-height:121px;
+    width: 242px;
+    height: 121px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    left: 4px;
+    top: 0px;
+}
+
+#github-content {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #7f8c8d;
+    font-family: sans-serif;
+    font-size:12px;
+    color: #7f8c8d;
+    width: 210px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    padding: 8px 16px;
+    position: relative;
+    left: 4px;
+    top: -4px;
+}
+
+#github-content p {
     font-size: 12px;
     line-height: normal;
 }
