@@ -1,0 +1,385 @@
+body {
+	background-color:#e5e5e5;
+	color:#111111;
+}
+
+@font-face {
+	font-family: "Arcade Classic";
+	src: url(arcadeclassic.woff);
+}
+
+@font-face {
+	font-family: "Castorgate Wide";
+	src: url(castorgatewide.woff);
+}
+
+@font-face {
+	font-family: "Brie";
+	src: url(brie.woff);
+}
+
+@font-face {
+	font-family: "Roboto Thin";
+	src: url(robotothin.woff);
+}
+
+h1 {
+	font-family: "Brie", "Arcade Classic", monospace;
+	font-size: 40px;
+	text-align:center;
+}
+
+li.nobullet {
+    list-style-type: none;
+}
+
+header {
+	background-color:#222;
+	width:640px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:16px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-radius: 8px;'
+}
+
+header h1 {
+    color: yellow;   
+}
+
+#container {
+	background-color:#f0f0f0;
+	width:760px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:16px;
+	padding-left:16px;
+	padding-right:16px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-radius: 8px;'
+}
+
+h2 {
+	font-family: "Brie", "Arcade Classic", monospace;
+	font-size:36px;
+	margin-bottom:2px;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-size:18px;
+    font-style: bold;
+    display: inline;
+    vertical-align: middle;
+}
+
+#tutorial-content img {
+    vertical-align: middle;
+    text-align: right;
+    float: right;
+}
+
+#tutorial-content img:hover {
+    opacity: 0.8;
+    -webkit-opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+p,li{
+	font-family: sans-serif;
+	font-size:14px;
+}
+
+a {
+	color: inherit;
+	font-family:sans-serif;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#551111;
+	text-decoration:none;
+}
+
+a:active {
+	color:#115511;
+	text-decoration:none;
+}
+
+small {
+	font-family: sans-serif;
+	font-size:10px;
+}
+
+#closeparas p {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+footer {
+	background-color:#f0f0f0;
+	width:640px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:16px;
+	padding-left:16px;
+	padding-right:16px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-radius: 8px;'
+}
+
+footer small {
+	font-family: sans-serif;
+	font-size:10px;
+}
+
+hr {
+	border-color:#eeeeee;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	margin-top:16px;
+	margin-bottom:16px;
+}
+
+.box {
+    width: 246px;
+    height: 246px;
+    margin: 4px 2px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+
+#who-front,
+#who-back,
+#what-front,
+#what-back,
+#where-front,
+#where-back {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    width: 242px;
+    height: 242px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}   
+
+#who-front,
+#what-front,
+#where-front {
+    z-index: 0;
+    font-family:"Roboto Thin";
+    font-size:60px;
+    color: white;
+    line-height:242px;
+}   
+
+#who-back,
+#what-back,
+#where-back {
+    width: 210px;
+    height: 210px;
+    font-family: sans-serif;
+    z-index: 1;
+    font-size:14px;
+    top: -250px;
+    vertical-align: middle;
+    padding: 16px;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}   
+
+
+#who-front {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+#who-back{
+    color: #e74c3c;
+    background-color: white;
+    border-color: #e74c3c;
+}
+
+#what-front {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+#what-back {
+    color: #f1c40f;
+    background-color: white;
+    border-color: #f1c40f;
+}
+
+#where-front {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+#where-back {
+    color: #3498db;
+    background-color: white;
+    border-color: #3498db;
+}
+
+#who-back:hover,
+#what-back:hover,
+#where-back:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.back-text {
+    display:inline-block;
+    vertical-align: middle;
+    width: 210px;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+     
+}
+
+.vcenter {
+    height: 210px;
+    display:inline-block;
+    width: 0px;
+    vertical-align: middle;
+    padding: 0px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 0px;
+}
+
+.box-2 {
+    width: 496px;
+    margin: 4px 2px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+.box-3 {
+    width: 246px;
+    margin: 4px 2px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+#tutorial-heading {
+    background-color: #2ecc71;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #2ecc71;
+    font-family:"Roboto Thin";
+    font-size:60px;
+    color: white;
+    line-height:121px;
+    width: 496px;
+    height: 121px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#tutorial-content {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #2ecc71;
+    font-family: sans-serif;
+    font-size:12px;
+    color: #2ecc71;
+    width: 464px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0px;
+    padding: 8px 16px;
+    position: relative;
+    left: 0px;
+    top: -4px;
+}
+
+#tutorial-content p {
+    line-height: normal;   
+}
+
+#links-heading {
+    background-color: #9b59b6;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #9b59b6;
+    font-family:"Roboto Thin";
+    font-size:60px;
+    color: white;
+    line-height:121px;
+    width: 242px;
+    height: 121px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    left: 4px;
+    top: 0px;
+}
+
+#links-content {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #9b59b6;
+    font-family: sans-serif;
+    font-size:12px;
+    color: #9b59b6;
+    width: 210px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    padding: 8px 16px;
+    position: relative;
+    left: 4px;
+    top: -4px;
+}
+
+#links-content a {
+    font-size: 12px;
+    line-height: normal;
+}
