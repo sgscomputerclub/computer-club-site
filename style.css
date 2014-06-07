@@ -161,9 +161,10 @@ hr {
 
 #tutorial-content hr {
 	border-color: #2ecc71;
-	border-width: 2px;
-	margin-bottom: -16px;
-	margin-top: -6px;
+	border-width: 1px;
+	margin-bottom: -8px;
+	margin-top: 2px;
+	border-style: solid;
 }
 
 .box {
