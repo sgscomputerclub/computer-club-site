@@ -1,7 +1,7 @@
 Sydney Grammar Computer Club Website
 ==================
 
-This is the source of the site for the Sydney Grammar Computer Club. It is being hosted with GitHub Pages at <a href="sgscclub.org">sgscclub.org</a>.
+This is the source of the site for the Sydney Grammar Computer Club. It is being hosted with GitHub Pages at <a href="http://sgscclub.org">sgscclub.org</a>.
 
 <!--
 ## Viewing the Source ##
